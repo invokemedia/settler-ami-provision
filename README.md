@@ -1,7 +1,7 @@
 Invoke AMI
 ==========
 
-This is the anisble role used to create the Invoke AMI.
+This is the anisble role used to create the Invoke AMI. It is basically a snapshot of the [invokemedia/ansible-laravel-settler](https://github.com/invokemedia/ansible-laravel-settler) project.
 
 ### Installation
 
