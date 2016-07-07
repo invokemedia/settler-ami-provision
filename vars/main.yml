@@ -1,0 +1,5 @@
+settler_user: www-data
+settler_update_cache: yes
+settler_upgrade_packages: yes
+settler_nginx_site_folder_root: /var/www/html
+settler_nginx_site_public_folder: /public
