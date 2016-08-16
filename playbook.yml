@@ -12,6 +12,10 @@
       template: src=templates/index.html dest=/var/www/html/public/index.html
       tags:
         - index
+    - name: add favicon
+      template: src=assets/favicon.ico dest=/var/www/html/public/favicon.ico
+      tags:
+        - index
 
   roles:
     - { role: invokemedia.laravel-settler }

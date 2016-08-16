@@ -3,7 +3,7 @@ Invoke AMI
 
 This is the anisble role used to create the Invoke AMI. It is basically a snapshot of the [invokemedia/ansible-laravel-settler](https://github.com/invokemedia/ansible-laravel-settler) project.
 
-See the AMI info with `aws ec2 describe-images --image-ids ami-0c4b8b6c`.
+See the AMI info with `aws ec2 describe-images --image-ids ami-f4599394`.
 
 ### Installation
 
