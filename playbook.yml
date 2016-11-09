@@ -3,6 +3,9 @@
   sudo: yes
   vars_files:
     - vars/main.yml
+  pre_tasks:
+    - name: install python2 in order to continue
+      raw: sudo apt-get -y install python-simplejson
   tasks:
     - name: make any missing directories
       file: path="{{ settler_nginx_site_folder_root }}/{{ settler_nginx_site_public_folder }}" state=directory mode=0755
